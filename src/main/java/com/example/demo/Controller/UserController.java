@@ -12,7 +12,7 @@ import java.util.Optional;
 @RequestMapping("/users")
 public class UserController {
     @Autowired
-    UserService userService;
+    UserService userService;//service
 
     @PostMapping("")
     public UserDTO insertUser(@RequestBody UserDTO user) {
