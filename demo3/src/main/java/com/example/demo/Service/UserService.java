@@ -10,7 +10,7 @@ import java.util.Optional;
 
 @Service//서비스
 public class UserService {
-    @Autowired
+    @Autowired//오토와이어
     UserRepository userRepository;
 
     public UserDTO insertUser(UserDTO user) {
